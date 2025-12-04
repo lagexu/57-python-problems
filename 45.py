@@ -1,4 +1,4 @@
-#Write a Python program to check if a number is an Armstrong number using a while loop.
+#Write a Python program to check if a number is armstrong or not.
 
 num = input("Enter Your Number: ")
 originalNum = int(num)   

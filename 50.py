@@ -1,4 +1,5 @@
-# Number Pyramid Pattern
+#Write a Python program to print a diamond pattern of stars.The height of the diamond should be taken as input from the user.
+
 height = int(input("Enter the height of the diamond: "))
 
 for i in range(1,height+1):

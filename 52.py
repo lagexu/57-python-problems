@@ -1,13 +1,13 @@
-# Number Pyramid Pattern
-height = int(input("Enter the height of the pyramid: "))
+#Write a Python program to print Pascal's triangle.The number of rows should be taken as input from the user.
+
+height = int(input("Enter the height of the triangle: "))
 
 for i in range(height):
-    # Print leading spaces
+
     print(' ' * (height - i), end='')
     num = 1
     for j in range(i + 1):
         print(num, end=' ')
-            # Compute the next number in the row
         num = num * (i - j) // (j + 1)
     print()
 

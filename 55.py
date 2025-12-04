@@ -1,15 +1,14 @@
-# Number Pyramid Pattern
-height = int(input("Enter the height of the pyramid: "))
-uppervalue=""
-lowervalue=""
-for j in range(height,0,-1):
- for k in range(j,0,-1):
-  uppervalue=f"{uppervalue } {j }"
- print(" "*(height-j),end="")
- print(uppervalue)
-# for i in range(1,height+1):
-#  lowervalue=f"{lowervalue } {i }"
-#  print(" "*(height-i),end="")
-#  print(lowervalue)
+#Write a Python program to print a checkerboard pattern of stars. The size of the checkerboard should be taken as input as input from the user.
+
+size = int(input("Enter the size of the checkerboard: "))
+
+for i in range(size):
+    line = ""
+    for j in range(size):
+        if (i + j) % 2 == 0:
+            line += "*"
+        else:
+            line += " "
+    print(line)
 
    

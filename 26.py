@@ -1,3 +1,4 @@
+#Write a Python program to create a list,add elements to it, and print the list.
 my_list = []
 
 while True:

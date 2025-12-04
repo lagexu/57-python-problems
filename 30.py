@@ -1,3 +1,17 @@
-my_list = ["Banana","Apple","Elephant","DragonFruit","Giraffe","Icecream"]
-my_list.sort(key=str.lower)
+#Write a Python program to sort a list in ascending order.
+
+my_list = [
+    "Guava",
+    "Pineapple",
+    "Mango",
+    "Watermelon",
+    "Papaya",
+    "Strawberry",
+    "Lychee",
+    "Pomegranate",
+    "Kiwi",
+    "Blueberry"
+]
+
+my_list.sort()
 print(my_list)
